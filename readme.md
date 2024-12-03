@@ -15,7 +15,7 @@ Then this package is for you.
 Supported Laravel versions: 8 ... 11+
 
 ```
-composer require mantas-done/laravel-apm
+composer require kamilersz/laravel-apm
 ```
 
 Add route to your routes/web.php file (don't forget securing it from unwanted visitors)
@@ -42,7 +42,7 @@ This package logs every user request to a file (storage/app/apm/apm-2020-01-01.t
 
 ## Customizations
 
-Copy /vendor/mantas-done/laravel-apm/config/apm.php file to /config/apm.php
+Copy /vendor/kamilersz/laravel-apm/config/apm.php file to /config/apm.php
 Then edit /config/apm.php values to your liking.
 
 ```php
