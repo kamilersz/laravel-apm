@@ -1,11 +1,10 @@
 <?php namespace Done\LaravelAPM\Watchers;
 
 use Done\LaravelAPM\LogWriter;
-use Illuminate\Foundation\Http\Events\RequestHandled;
 
 class RequestWatcher
 {
-    public static function record(RequestHandled $event)
+    public static function record($event)
     {
         $duration = microtime(true) - LARAVEL_START;
 
